@@ -33,17 +33,17 @@ def print_banner():
     for i, line in enumerate(lines):
         t = i / height
 
-        # effet vague (mais sans boucle infinie)
+        
         wave = (math.sin(t * 3) + 1) / 2
 
-        # bleu → bleu clair (lumineux)
+        
         r = int(0 + 80 * wave)
         g = int(120 + 100 * wave)
         b = int(200 + 55 * wave)
 
         print(rgb(r, g, b) + line)
 
-        time.sleep(0.03)  # animation ligne par ligne
+        time.sleep(0.03)  
 
     print(Style.RESET_ALL)
 
