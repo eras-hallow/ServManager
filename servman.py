@@ -24,10 +24,6 @@ def rgb(r, g, b):
     return f"\033[38;2;{r};{g};{b}m"
 
 def print_banner():
-    import time
-    import math
-    from colorama import Style
-
     height = len(lines)
 
     for i, line in enumerate(lines):
