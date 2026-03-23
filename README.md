@@ -1,13 +1,3 @@
-"""
-      :::::::::  
-    :+:    :+: 
-   +:+         
-  +#++:++#++   
-         +#+    
- #+#    #+#     
- ########
-"""
-
 FR
 
 **ServManager** est un client RCON développé en Python
